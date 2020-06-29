@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flickr Feed</string>
+    <string-array name="categories">
+        <item>All</item>
+        <item>Turkey</item>
+        <item>Chad</item>
+        <item>Sudan</item>
+    </string-array>
+</resources>

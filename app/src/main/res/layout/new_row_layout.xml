@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="vertical" android:clickable="true" android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/imgNew"
+        android:layout_gravity="center_vertical"
+        android:layout_height="200dp"
+        android:contentDescription="image"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"/>
+    <!-- cardview would look better-->
+    <LinearLayout android:id="@+id/box" android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_margin="2dp">
+
+        <TextView android:id="@+id/txtnewtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="14sp"/>
+
+        <TextView android:id="@+id/txtnewdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp"
+            android:text="Photo ID"/>
+            <!-- TODO align it to right hbottom of this layout using gravity with alignment-->
+    </LinearLayout>
+
+
+</LinearLayout>
+    <LinearLayout android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp">
+    </LinearLayout>
+</LinearLayout>
