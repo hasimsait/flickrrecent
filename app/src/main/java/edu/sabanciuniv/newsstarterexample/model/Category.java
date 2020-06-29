@@ -1,7 +1,7 @@
 package edu.sabanciuniv.newsstarterexample.model;
 
 import java.io.Serializable;
-//TODO this class is not used in this, it was on the actual homework, if you see this, I didn't take the time to delete the references to this
+//TODO this class is not used in this, it was on the actual homework
 public class Category implements Serializable {
     int id;
     String name;
